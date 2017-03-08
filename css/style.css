@@ -3,7 +3,7 @@ header {
   font-size: 14px;
   font-weight: bold;
   display: flex;
-  color: MediumAquamarine;
+  color: aquamarine;
   border: 2px solid black;
 }
 
@@ -19,11 +19,31 @@ nav {
   display: flex;
 }
 
+h2 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+p {
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
 .fish {
+  display: flex;
   border: 2px solid black;
 }
 
+h2.fish {
+  font-size: 40px;
+  color: white;
+}
+
 .actionStar {
+  display: flex;
   border: 2px solid black;
 }
 
@@ -31,36 +51,58 @@ nav {
   border: 2px solid black;
 }
 
+h3.sidebar {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+p.sidebar {
+  background-color: WhiteSmoke;
+  font-family: Verdana;
+  font-size: 12px;
+  color: DimGray;
+}
+
 .orca {
+  display: flex;
   border: 2px solid black;
 }
 
 .burger {
+  display: flex;
   border: 2px solid black;
 }
 
 .cats {
+  display: flex;
   border: 2px solid black;
 }
 
 .earth {
+  display: flex;
   border: 2px solid black;
 }
 
 .camera {
+  display: flex;
   border: 2px solid black;
 }
 
 .columnLeft {
-  width: 630px;
+  display: flex;
+  flex-basis: 630px;
+  flex-direction: row;
 }
 
 .columnCenter {
-  width: 300px;
+  display: flex;
+  flex-basis: 300px;
 }
 
 .columnRight {
-  width: 240px;
+  display: flex;
+  flex-basis: : 240px;
+  flex-direction: column;
 }
 
 footer {
