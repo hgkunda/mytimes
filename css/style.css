@@ -87,7 +87,7 @@ body {
 .burger {
 
   border: 2px solid black;
-
+  position: relative;
 }
 
 .cats {
@@ -121,6 +121,9 @@ body {
   position: static;
 }
 
+.stories {
+  display: flex;
+}
 
 .columnLeft {
   display: flex;
@@ -133,14 +136,14 @@ body {
 .columnCenter {
   display: flex;
   width: 300px;
-
+  position: relative;
   flex-direction: column;
 }
 
 .columnRight {
   display: flex;
   width: 240px;
-  
+  flex-direction: column;
   position: relative;
 }
 
