@@ -1,0 +1,68 @@
+header {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  display: flex;
+  color: MediumAquamarine;
+  border: 2px solid black;
+}
+
+.logo {
+  display: inline-flex;
+}
+
+main {
+  display: flex;
+}
+
+nav {
+  display: flex;
+}
+
+.fish {
+  border: 2px solid black;
+}
+
+.actionStar {
+  border: 2px solid black;
+}
+
+.sidebar {
+  border: 2px solid black;
+}
+
+.orca {
+  border: 2px solid black;
+}
+
+.burger {
+  border: 2px solid black;
+}
+
+.cats {
+  border: 2px solid black;
+}
+
+.earth {
+  border: 2px solid black;
+}
+
+.camera {
+  border: 2px solid black;
+}
+
+.columnLeft {
+  width: 630px;
+}
+
+.columnCenter {
+  width: 300px;
+}
+
+.columnRight {
+  width: 240px;
+}
+
+footer {
+  border: 2px solid black;
+}
