@@ -8,6 +8,7 @@ header {
 }
 
 body {
+
 }
 
 .logo {
@@ -16,10 +17,15 @@ body {
 
 main {
   display: flex;
+  align-content:
 }
 
 nav {
-  display: flex;
+  display: inline-block;
+}
+
+h5 {
+  text-align: right;
 }
 
 h2 {
@@ -35,7 +41,7 @@ p {
 }
 
 .fish {
-  display: flex;
+  display: block;
   border: 2px solid black;
 }
 
@@ -43,10 +49,15 @@ p {
   font-size: 40px;
   color: white;
   z-index: 5;
+  position: absolute;
+}
+
+#fishImg {
+
 }
 
 .actionStar {
-  display: flex;
+  display: block;
   border: 2px solid black;
 }
 
@@ -67,17 +78,19 @@ p {
 }
 
 .orca {
-  display: flex;
+  display: block;
   border: 2px solid black;
+  position: relative;
 }
 
 .burger {
-  display: flex;
+  display: block;
   border: 2px solid black;
+  position: relative;
 }
 
 .cats {
-  display: flex;
+  display: block;
   border: 2px solid black;
 }
 
@@ -85,23 +98,27 @@ p {
   font-size: 30px;
   color: white;
   z-index: 5;
+  position: absolute;
+  align-content: stretch;
 }
 
 .earth {
-  display: flex;
-  border: 2px solid black;
+  position:
 }
 
 .camera {
-  display: flex;
+  position:
+}
+
+.earcam {
+  display: inline-block;
   border: 2px solid black;
+  position: static;
 }
 
 .columnLeft {
   display: flex;
   flex-basis: 630px;
-  flex-shrink: 3;
-  align-content: center;
   position: relative;
   flex-direction: column;
 }
@@ -109,7 +126,7 @@ p {
 .columnCenter {
   display: flex;
   flex-basis: 300px;
-  flex-shrink: 2;
+  position: relative;
   flex-direction: column;
 }
 
@@ -117,7 +134,7 @@ p {
   display: flex;
   flex-basis: 240px;
   flex-direction: column;
-  flex-shrink: 1;
+  position: relative;
 }
 
 footer {
@@ -127,6 +144,7 @@ footer {
   font-family: Verdana;
   font-size: 12px;
   text-align: center;
+  position: relative;
 }
 
 #footTitle {
