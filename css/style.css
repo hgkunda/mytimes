@@ -17,7 +17,7 @@ body {
 
 main {
   display: flex;
-  align-content:
+
 }
 
 nav {
@@ -34,7 +34,7 @@ h2 {
   font-size: 30px;
 }
 
-p {
+body {
   font-family: Georgia;
   font-size: 17px;
   color: black;
@@ -45,15 +45,16 @@ p {
   border: 2px solid black;
 }
 
-.fish h1 {
+.fishImg {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+}
+
+.fishImg h1 {
+  display: flex;
   font-size: 40px;
   color: white;
   z-index: 5;
-  position: absolute;
-}
-
-#fishImg {
-
 }
 
 .actionStar {
@@ -78,28 +79,32 @@ p {
 }
 
 .orca {
-  display: block;
+
   border: 2px solid black;
   position: relative;
 }
 
 .burger {
-  display: block;
+
   border: 2px solid black;
-  position: relative;
+
 }
 
 .cats {
-  display: block;
+
   border: 2px solid black;
 }
 
-.cats h1 {
+.catImg {
+  display: flex;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+}
+
+.catImg h1 {
+  display: flex;
   font-size: 30px;
   color: white;
   z-index: 5;
-  position: absolute;
-  align-content: stretch;
 }
 
 .earth {
@@ -116,24 +121,26 @@ p {
   position: static;
 }
 
+
 .columnLeft {
   display: flex;
-  flex-basis: 630px;
+  width: 630px;
   position: relative;
   flex-direction: column;
+  align-content: center;
 }
 
 .columnCenter {
   display: flex;
-  flex-basis: 300px;
-  position: relative;
+  width: 300px;
+
   flex-direction: column;
 }
 
 .columnRight {
   display: flex;
-  flex-basis: 240px;
-  flex-direction: column;
+  width: 240px;
+  
   position: relative;
 }
 
