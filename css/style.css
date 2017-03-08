@@ -7,6 +7,9 @@ header {
   border: 2px solid black;
 }
 
+body {
+}
+
 .logo {
   display: inline-flex;
 }
@@ -23,7 +26,6 @@ h2 {
   font-family: Georgia;
   font-weight: bold;
   font-size: 30px;
-  color: white;
 }
 
 p {
@@ -37,9 +39,10 @@ p {
   border: 2px solid black;
 }
 
-h2.fish {
+.fish h1 {
   font-size: 40px;
   color: white;
+  z-index: 5;
 }
 
 .actionStar {
@@ -51,12 +54,12 @@ h2.fish {
   border: 2px solid black;
 }
 
-h3.sidebar {
+.sidebar h3 {
   font-size: 16px;
   font-weight: bold;
 }
 
-p.sidebar {
+.sidebar p {
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
@@ -78,6 +81,12 @@ p.sidebar {
   border: 2px solid black;
 }
 
+.cats h1 {
+  font-size: 30px;
+  color: white;
+  z-index: 5;
+}
+
 .earth {
   display: flex;
   border: 2px solid black;
@@ -91,18 +100,24 @@ p.sidebar {
 .columnLeft {
   display: flex;
   flex-basis: 630px;
-  flex-direction: row;
+  flex-shrink: 3;
+  align-content: center;
+  position: relative;
+  flex-direction: column;
 }
 
 .columnCenter {
   display: flex;
   flex-basis: 300px;
+  flex-shrink: 2;
+  flex-direction: column;
 }
 
 .columnRight {
   display: flex;
-  flex-basis: : 240px;
+  flex-basis: 240px;
   flex-direction: column;
+  flex-shrink: 1;
 }
 
 footer {
@@ -111,6 +126,7 @@ footer {
   margin: auto;
   font-family: Verdana;
   font-size: 12px;
+  text-align: center;
 }
 
 #footTitle {
