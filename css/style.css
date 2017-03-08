@@ -58,11 +58,12 @@ body {
 }
 
 .actionStar {
-  display: block;
+
   border: 2px solid black;
 }
 
 .sidebar {
+
   border: 2px solid black;
 }
 
@@ -78,16 +79,18 @@ body {
   color: DimGray;
 }
 
+#cookie {
+  display: flex;
+}
+
 .orca {
 
   border: 2px solid black;
-  position: relative;
 }
 
 .burger {
 
   border: 2px solid black;
-  position: relative;
 }
 
 .cats {
@@ -108,11 +111,15 @@ body {
 }
 
 .earth {
-  position:
+  display: flex;
+  font-size: 30px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
 }
 
 .camera {
-  position:
+  display: flex;
+  font-size: 30px;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
 }
 
 .earcam {
@@ -145,6 +152,7 @@ body {
   width: 240px;
   flex-direction: column;
   position: relative;
+
 }
 
 footer {
