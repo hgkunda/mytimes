@@ -1,30 +1,33 @@
+
+/* General */
+
 header {
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
   display: flex;
-  color: aquamarine;
+  color: MediumAquamarine;
   border: 2px solid black;
 }
 
-body {
-
+#logo {
+  display: flex;
 }
 
-.logo {
-  display: inline-flex;
+#title {
+  display: flex;
 }
 
 main {
   display: flex;
-
 }
 
-nav {
+.topNav {
+  display: flex;
+}
+
+.topNav p {
   display: inline-block;
-}
-
-h5 {
   text-align: right;
 }
 
@@ -40,9 +43,14 @@ body {
   color: black;
 }
 
+/* Articles */
+
+/* Fish */
+
 .fish {
   display: block;
   border: 2px solid black;
+  position: relative;
 }
 
 .fishImg {
@@ -55,24 +63,30 @@ body {
   font-size: 40px;
   color: white;
   z-index: 5;
+  padding-bottom: 10px;
+  padding-bottom: 10px;
 }
+ /* Action Star */
 
 .actionStar {
-
   border: 2px solid black;
 }
 
-.sidebar {
+/* Sidebar */
 
+.sidebar {
+  display: flex;
+  flex-direction: column;
   border: 2px solid black;
 }
 
 .sidebar h3 {
   font-size: 16px;
   font-weight: bold;
+  text-align: center;
 }
 
-.sidebar p {
+.sidebar p{
   background-color: WhiteSmoke;
   font-family: Verdana;
   font-size: 12px;
@@ -81,20 +95,27 @@ body {
 
 #cookie {
   display: flex;
+  flex-direction: column;
 }
 
-.orca {
+/* Orca and Burger */
 
+.orca {
+  display: inline;
+  position: relative;
   border: 2px solid black;
 }
 
 .burger {
-
+  display: inline;
+  position: relative;
   border: 2px solid black;
 }
 
-.cats {
 
+/* Cats */
+
+.cats {
   border: 2px solid black;
 }
 
@@ -106,31 +127,48 @@ body {
 .catImg h1 {
   display: flex;
   font-size: 30px;
+  text-align: center;
   color: white;
   z-index: 5;
+  padding-top: 90px;
+  padding-bottom: 90px;
 }
+
+/* Earth and Camera */
 
 .earth {
   display: flex;
-  font-size: 30px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+  flex-basis: auto;
+}
+
+.earth h1 {
+  display: flex;
+  font-size: 30px;
+  color: white;
 }
 
 .camera {
   display: flex;
-  font-size: 30px;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+  flex-basis: auto;
 }
 
-.earcam {
-  display: inline-block;
-  border: 2px solid black;
-  position: static;
+.camera h1 {
+  display: flex;
+  text-align: center;
+  font-size: 30px;
+  color: white;
 }
+
+/* Stories */
 
 .stories {
   display: flex;
+  position: relative;
 }
+
+/* Columns */
 
 .columnLeft {
   display: flex;
@@ -138,6 +176,7 @@ body {
   position: relative;
   flex-direction: column;
   align-content: center;
+  flex-grow: 3;
 }
 
 .columnCenter {
@@ -145,15 +184,18 @@ body {
   width: 300px;
   position: relative;
   flex-direction: column;
+  flex-grow: 2:
 }
 
 .columnRight {
   display: flex;
   width: 240px;
   flex-direction: column;
-  position: relative;
+  flex-grow: 1;
 
 }
+
+/* Footer */
 
 footer {
   border: 2px solid black;
